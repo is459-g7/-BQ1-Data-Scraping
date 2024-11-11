@@ -38,7 +38,6 @@ def scrape_and_save_csv():
 
     # Define tables to save with appropriate filenames
     tables_to_save = {
-        "Commuter_flights.csv": tables[1], 
         "Regional_Flights.csv": tables[2],
         "Short_Haul_Flights.csv": tables[3],
         "Medium_Haul_Flights.csv": tables[4]
